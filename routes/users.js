@@ -53,14 +53,4 @@ router.post('/login', (req, res, next) => {
         }).catch(next);
 })
 
-router.get('/me',auth.verifyUser,(req,res,next)=>{
-    res.json({
-        _id:req.user._id,
-        fullname:req.user.fullname,
-        email:req.user.email,
-        image:req.user.image
-    });
-
-});
-
 module.exports = router;

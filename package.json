@@ -1,23 +1,23 @@
 {
-  "name": "HamrobazarAPI",
+  "name": "parashghale",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "start": "nodemon --ignore ./public/uploads index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "\"echo\\\"Error:no test specified\\\" && exit 1\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SabinaSunuwar/HamrobazarAPI.git"
+    "url": "git+https://github.com/parashghale/ApiHamrobazaar.git"
   },
-  "keywords": [],
-  "author": "Sabina Sunuwar",
+  "author": "parash ghale",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SabinaSunuwar/HamrobazarAPI/issues"
+    "url": "https://github.com/parashghale/ApiHamrobazaar/issues"
   },
-  "homepage": "https://github.com/SabinaSunuwar/HamrobazarAPI#readme",
+  "homepage": "https://github.com/parashghale/ApiHamrobazaar#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
